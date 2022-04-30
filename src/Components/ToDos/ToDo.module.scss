@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Square+Peg&display=swap');
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background-color: rgba(27, 12, 241, 0.3);
+    border-radius: 35px;
+    
+}
+
+
+
+
+/* To Do Item styles */
+
+.itemWrapper  {
+
+    display: flex;
+    align-items: center;
+   
+
+     >svg {
+        margin-left: 25px;
+        cursor: pointer;
+     }    
+    
+    >button {
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 70%;
+    max-width: 100%;
+    margin: 20px;
+    padding:10px 25px;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+
+
+   
+    }
+    
+}
+.item {
+        margin-left: 25px;
+        font-weight: bold;
+        font-size: 25px;
+        border-bottom: 1px solid rgb(0, 51, 235);
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        
+    }
+.createWrapper {
+    margin-left: 100px;
+
+}
